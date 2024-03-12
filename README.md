@@ -1,39 +1,20 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# check_sign_up_format
+사용자 입력을 검증하는 Dart 라이브러리입니다. 이 라이브러리는 사용자 입력이 특정 형식 요구사항을 충족하는지 확인하기 위한 일련의 검증 함수를 제공합니다. 이름, ID, 이메일, 비밀번호, 비밀번호 확인, 전화번호에 대한 검증이 포함됩니다.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* 특수 문자를 제외한 이름 검증
+* 영문자와 숫자만을 포함한 ID 검증
+* 표준 이메일 형식에 맞는 이메일 검증
+* 알파벳, 숫자, 특수 문자의 조합을 포함한 비밀번호 검증
+* 두 번 입력된 비밀번호가 일치하는지 확인하는 비밀번호 검증
+* 숫자만을 포함한 전화번호 검증
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+이 라이브러리를 사용하기 위해 프로젝트의 pubspec.yaml 파일에 포함시킵니다.
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  check_sign_up_format: <버전>
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

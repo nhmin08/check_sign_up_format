@@ -1,7 +1,7 @@
 name: check_sign_up_format
 description: "회원가입 양식 체크"
 version: 0.0.1
-homepage:
+repository: https://github.com/nhmin08/check_sign_up_format
 
 environment:
   sdk: '>=3.4.0-183.0.dev <4.0.0'

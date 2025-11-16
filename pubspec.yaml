@@ -4,8 +4,7 @@ version: 0.0.1
 repository: https://github.com/nhmin08/check_sign_up_format
 
 environment:
-  sdk: '>=3.4.0-183.0.dev <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: ^3.9.2
 
 dependencies:
   flutter:
